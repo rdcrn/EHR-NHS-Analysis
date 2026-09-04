@@ -1,0 +1,5 @@
+# Copy to ~/.Renviron (or the project root) and fill in your tokens.
+# Restart R afterwards: .Renviron is only read at startup.
+# Never commit the real .Renviron - it is gitignored.
+REDCAP_API_TOKEN_EHR=
+REDCAP_API_TOKEN_NHS=

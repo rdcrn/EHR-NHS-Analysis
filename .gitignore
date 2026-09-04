@@ -1,0 +1,24 @@
+# R
+.Rhistory
+.RData
+.Rdata
+.Ruserdata
+.Rproj.user/
+*.Rproj.user
+
+# Secrets - never commit REDCap tokens
+.Renviron
+.env
+
+# Output: figures and exports derived from participant-level data
+output/*
+!output/.gitkeep
+
+# REDCap exports and other data files
+*.csv
+*.xlsx
+*.xls
+
+# OS
+.DS_Store
+Thumbs.db
